@@ -1,0 +1,17 @@
+body {
+    color: aliceblue;
+    background-image:url(body.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-image: url(banner.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    color: white;
+}

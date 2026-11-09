@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<title>HOME PAGE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+<style>
+  h1, h3{
+    color: black;
+  }
+</style>
+
+<body>
+
+
+  
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+
+<img class="w3-image"
+src="header_home.jpeg"
+alt="Header_img"
+width="100%"
+height="600">
+
+  <div class="w3-display-middle w3-padding-large
+  w3-border w3-wide w3-text-light-grey w3-center">
+
+<h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">
+<i>DHARANIE MIRIHANAARACHCHI</i></h1>
+
+<h5 class="w3-hide-large" style="white-space:nowrap">
+DHARANIE MIRIHANAARACHCHI</h5>
+
+<h3 class="w3-hide-medium w3-hide-small">
+GIS ASSESSMENT 1
+</h3>
+
+  </div>
+
+   
+
+  <nav class="w3-flex w3-light-grey w3-round
+  w3-display-bottommiddle w3-hide-small"
+  style="bottom:-16px">
+
+
+<a href="#" class="w3-button">Home</a>
+<a href="Assignment_Tutorial1.html" class="w3-button">Tutorials</a>
+<a href="Assignment_CustomDataSet.html" class="w3-button">Custom Data</a>
+
+  </nav>
+
+</header>
+
+
+
+<nav class="w3-flex w3-center w3-light-grey
+w3-hide-large w3-hide-medium">
+
+<a href="#" class="w3-button" style="flex:1">Home</a> <a href="Assignment_Tutorial1.html" class="w3-button" style="flex:1">Tutorials</a> <a href="Assignment_CustomDataSet.html" class="w3-button" style="flex:1">Custom Data</a>
+
+</nav>
+
+
+
+<main class="w3-content w3-padding-large w3-margin-top"
+id="portfolio">
+
+
+
+<img src="body.jpeg"
+id = "img1"
+data-url="Assignment_Tutorial1.html"
+alt="Ocean"
+class="w3-image"
+width="1000"
+height="500">
+<p><center>Tutorial 1</center></p>
+<br>
+
+<img src="body2.jpg"
+id = "img2"
+data-url="Assignment_Tutorial2.html"
+alt="Ocean II"
+class="w3-image w3-margin-top"
+width="1000"
+height="500">
+<p><center>Tutorial 2</center></p>
+<br>
+
+<img src="shapes.jpg"
+id = "img3"
+data-url="Assignment_Tutorial3.html"
+alt="Falls"
+class="w3-image w3-margin-top"
+width="1000"
+height="500">
+<p><center>Tutorial 3</center></p>
+<br>
+
+<img src="wales.jpeg"
+id = "img4"
+data-url="Assignment_Tutorial3_Part2.html"
+alt="Skies"
+class="w3-image w3-margin-top"
+width="1000"
+height="500">
+<p><center>Tutorial 3 Part 2</center></p>
+<br>
+
+<img src="bangkok.jpg"
+id = "img5"
+data-url="Assignment_CustomDataSet.html"
+alt="Mountains"
+class="w3-image w3-margin-top"
+width="1000"
+height="500">
+<p><center>Custom Data Set</center></p>
+<br>
+
+<script>
+  document.querySelectorAll('img[data-url]').forEach(img => {
+      img.addEventListener("click", (event) => {
+          const direct = event.target.dataset.url;
+
+          if (direct) {
+            window.location.href = direct;
+          }
+      })
+  })
+
+</script>
+
+
+</body>
+</html>

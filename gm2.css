@@ -1,0 +1,10 @@
+body {
+    color:aliceblue;
+    background-image:url(body2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    color: yellow;
+}

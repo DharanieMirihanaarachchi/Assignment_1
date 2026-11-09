@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+
+<html>
+<title>Tutorial 3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<style>
+body,html {
+  height:100%;
+  font-family:"Inconsolata",sans-serif;
+  color: black;
+  background-color: pink;
+}
+
+.bgimg {
+  background-position:center;
+  background-size:cover;
+  background-image:url("shapes.jpg");
+  min-height:75%;
+}
+
+.menu {
+  display:none;
+}
+ 
+#map_space, #map_space2, #map_space3{
+            background-color: lightblue;
+            border: 2px solid black;
+}
+    
+</style>
+
+<body>
+
+<div class="w3-top">
+  <nav class="w3-flex w3-padding w3-pink">
+
+<a href="1. HomePage.html"
+class="w3-button w3-pink"
+style="flex:1">
+HOME
+</a>
+
+<a href="Assignment_Tutorial1.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 1
+</a>
+
+<a href="Assignment_Tutorial2.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 2
+</a>
+
+<a href="Assignment_Tutorial3_Part2.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 3 Part 2
+</a>
+
+<a href="Assignment_CustomDataSet.html"
+class="w3-button w3-pink"
+style="flex:1">
+Custom Data Set
+</a>
+
+  </nav>
+</div>
+
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+  <div class="w3-display-bottomleft
+  w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">3 Google Maps showcasing adding Points, Lines and Polygons using JSON</span>
+  </div>
+
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-black" style="font-size:90px">
+    Tutorial 3
+    </span>
+  </div>
+
+</header>
+
+
+
+<div class="w3-sand w3-large">
+
+
+    
+<section class="w3-container" id="about">
+
+  <div class="w3-content" style="max-width:700px">
+
+    <br> <br>
+
+
+    <center>
+        <div id="map_space" style="width: 100%; height: 550px;"></div>
+        <br> <br>
+        <div id ="map_space2" style="width: 100%; height: 550px;"></div> 
+        <br> <br>
+        <div id ="map_space3" style="width: 100%; height: 550px;"></div> 
+        <br>
+     
+
+    </center>
+
+    <script>
+        function draw_map(){
+            var map_ops = {
+                center : new google.maps.LatLng(52.34520636794202, -3.38990593347728),
+                zoom: 7,
+                mapTypeId : google.maps.MapTypeId.ROADMAP,
+                mapTypeControlOptions: {
+	                mapTypeIds: ["roadmap", "my style"],
+                    style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+                    position: google.maps.ControlPosition.TOP_CENTER},
+                disableDefaultUI: true,
+                mapTypeControl: true,
+                zoomControl: true,
+                zoomControlOptions: {
+                    style: google.maps.ZoomControlStyle.SMALL,
+                    position: google.maps.ControlPosition.LEFT_BOTTOM}
+                }
+
+
+            ;
+
+            var map_ops2 = {
+                center : new google.maps.LatLng(52.5, -3.408),
+                zoom: 7.7,
+                mapTypeId : google.maps.MapTypeId.ROADMAP,
+                mapTypeControlOptions: {
+	            mapTypeIds: ["roadmap", "my style 2"]},
+                zoomControl: true,
+                mapTypeControl: false
+
+            };
+
+            var map_ops3 = {
+                center : new google.maps.LatLng(52.741, -3.4085),
+                zoom: 8.5,
+                mapTypeId : google.maps.MapTypeId.ROADMAP,
+                mapTypeControlOptions: {},
+
+            };
+
+            var theMap = new google.maps.Map(document.getElementById("map_space"), map_ops);
+            var theMap2 = new google.maps.Map(document.getElementById("map_space2"), map_ops2);
+            var theMap3 = new google.maps.Map(document.getElementById("map_space3"), map_ops3);
+
+
+
+
+            var newStyle = [
+                {
+		"featureType": "water",
+		"elementType": "geometry.fill",
+		"stylers": [{"color": "#808080"}]
+   	},
+	{
+		"featureType": "administrative.locality",
+		"elementType": "labels.text.fill",
+		"stylers": [{"color": "#0000ff"}]
+   	}
+            ];
+
+
+            var aNewMapType = new google.maps.StyledMapType(newStyle,{
+                map: theMap,
+                name: 'Dark Seas'
+            });
+
+            theMap.mapTypes.set('my style', aNewMapType);
+
+            theMap.setMapTypeId('my style');
+
+            mapTypeControlOptions: {
+            	mapTypeIds: ["roadmap", "my style"]}
+
+                
+            var newStyle2 = [
+                {
+                    featureType: 'road',
+                    elementType: 'all',
+                    stylers: [{visibility:'off'}]
+                },
+                {
+                    featureType: 'administrative.locality',
+                    elementType: 'all',
+                    stylers: [{lightness:40}, {visibility:'on'}]
+                }
+            ];
+
+   
+             var aNewMapType2 = new google.maps.StyledMapType(newStyle2,{
+                map: theMap2,
+                name: 'Roads Off'
+            });
+
+            theMap2.mapTypes.set('my style 2', aNewMapType2);
+
+            theMap2.setMapTypeId('my style 2');
+
+            mapTypeControlOptions: {
+            	mapTypeIds: ["roadmap", "my style 2"]}
+
+
+            const polygonCoords= [
+                {lat: 52.782, lng: -3.447},
+                {lat: 52.782, lng: -3.370},
+                {lat: 52.70, lng: -3.370},
+                {lat: 52.70, lng: -3.447},
+            ];
+
+            const polygon = new google.maps.Polygon({
+                paths : polygonCoords,
+                strokeColor : "#FF0000",
+                strokeOpacity: 0.8,
+                strokeWeight : 2,
+                fillColor: "#FF0000",
+                fillOpacity: 0.35,
+            });
+
+            polygon.setMap(theMap);
+
+            google.maps.event.addListener(polygon, 'click', function(event){
+                alert(`Polygon Clicked at: \nLat: ${event.latLng.lat()}\nLng: ${event.latLng.lng()}`);
+            })
+
+            const polygondData = [
+                [
+                    {lat: 52.782, lng: -3.447},
+                    {lat: 52.782, lng: -3.370},
+                    {lat: 52.70, lng: -3.370},
+                    {lat: 52.70, lng: -3.447},
+                ],
+                [
+                    {lat: 52.1, lng: -3.2},
+                    {lat: 52.05, lng: -3.1},
+                    {lat: 51.9, lng: -3.0},
+                ],
+                [
+                    {lat: 50.782, lng: -3.347},
+                    {lat: 50.75, lng: -3.270},
+                    {lat: 50.70, lng: -3.250},
+                    {lat: 50.65, lng: -3.237},
+                    {lat: 50.60, lng: -3.147},
+                ],
+            ];
+
+            const polygons = polygondData.map((coords,index) => {
+                const polygon2 = new google.maps.Polygon({
+                    paths: coords,
+                    strokeColor: "#0000FF",
+                    strokeOpacity: 0.8,
+                    strokeWeight: 2,
+                    fillColor: "#0000FF",
+                    fillOpacity: 0.35,
+                });
+
+                polygon2.setMap(theMap2);
+                google.maps.event.addListener(polygon2, "click", function(event){
+                    alert(`Polygon ${index + 1} clicked at: \nLat: ${event.latLng.lat()} \nLng: ${event.latLng.lng()}`);
+                })
+            })
+
+
+            /*
+            //internal Geojson object
+
+            const geoJsonData1 = {
+                type: "FeatureCollection",
+                features: [
+                    {
+                        type: "Feature",
+                        geometry: {
+                            type : "Polygon",
+                            coordinates: [[
+                                [-3.447, 52.782],
+                                [-3.347, 52.6],
+                                [-3.330, 52.6],
+                                [-3.339, 52.5],
+                                [-3.447, 52.782]
+                            ]]
+                    },
+                    properties: {
+                        name: "My Polygon",
+                    }
+                }
+                ]
+            };
+
+
+           theMap3.data.addGeoJson(geoJsonData1);
+
+            theMap3.data.setStyle({
+                fillColor: 'blue',
+                strokeColor: 'blue',
+                strokeWeight: 2,
+                fillColor: 0.4
+            });
+
+            theMap3.data.addListener('click', function (event) {
+                const name = event.feature.getProperty('name');
+                const lat = event.latLng.lat().toFixed(5);
+                const lng = event.latLng.lng().toFixed(5);
+                alert(`${name} clicked at: \nLat: ${lat}, Lng: ${lng}`);
+            });
+
+            */
+
+
+
+            //Internal GeoJSon with multiple polygons
+
+            const geoJsonData = {
+                type: "FeatureCollection",
+                features: [
+                    {
+                        type: "Feature",
+                        properties: {name: "Polygon 1"},
+                        geometry:{
+                            type: "Polygon",
+                            coordinates: [[
+                                [-3.447, 52.782],
+                                [-3.347, 52.6],
+                                [-3.330, 52.6],
+                                [-3.339, 52.5],
+                                [-3.447, 52.782]
+                            ]]
+                        }
+                    },
+                    {
+                        type: "Feature",
+                        properties: {name: "Polygon 2"},
+                        geometry:  {
+                            type: "Polygon",
+                            coordinates: [[
+                                [-3.147, 51.782],
+                                [-3.147,52.6],
+                                [-3.330, 52.5],
+                                [-3.147, 51.782]
+                            ]]
+                        } 
+                    },
+                    {
+                        type: "Feature",
+                        properties: {name: "Polygon 3"},
+                        geometry:  {
+                            type: "Polygon",
+                            coordinates: [[
+                                [-3.0, 51.2],
+                                [-3.147, 51.0],
+                                [-3.330, 52.5],
+                                [-3.0, 51.2]
+                            ]]
+                        }                         
+                    },
+
+                {
+
+                type: "Feature",
+                properties: {name: "Point 1 "},
+                geometry: {
+                    type : "Point",
+                    coordinates: [-3.447, 52.782]  } } ,   
+
+                {
+                type: "Feature",
+                properties: {name: "Point 2 "},
+                geometry: {
+                    type : "Point",
+                    coordinates: [-3.147, 52.6]  } },    
+
+
+                {
+                type: "Feature",
+                properties: {name: "Point 3 "},
+                geometry: {
+                    type : "Point",
+                    coordinates: [-3.330, 52.5]  } } ,
+                    
+                {
+                    type: "Feature",
+                    properties: {name: "Line 1"},
+                    geometry:{
+                        type: "LineString",
+                        coordinates: [
+                            [-3.447, 52.782],
+                            [-3.330, 52.6]
+
+                        ]
+                    }
+                }
+                                
+                
+                ]  
+            };
+
+            theMap3.data.addGeoJson(geoJsonData);
+
+            theMap3.data.setStyle(function(feature) {
+
+                const Type = feature.getGeometry().getType();
+
+                if (Type === "Point") {
+                    return {
+                        icon:{
+                            path: google.maps.SymbolPath.CIRCLE,    
+                            scale: 7,
+                            fillColor:"#FFFF00",
+                            fillOpacity: 1,
+                            strokeColor: "#000000",
+                            strokeWeight: 2
+                            },
+                            zIndex: 10
+                    };
+                }
+
+                if (Type === "LineString") {
+                    return{
+                        strokeColor: "#800080",
+                        strokeOpacity: 1,
+                        strokeWeight: 4,
+                        zIndex:5
+                    };
+                }
+
+
+                const name = feature.getProperty('name');
+                const color = {
+                    "Polygon 1": "#FF0000",
+                    "Polygon 2": "#00FF00",
+                    "Polygon 3": "#0000FF"
+                } [name] || "#999999";
+
+                return{
+                    fillColor: color,
+                    strokeColor: color,
+                    strokeWeight: 2,
+                    fillOpacity: 0.4
+                };
+            });
+
+
+            theMap3.data.addListener('click', function (event) {
+                const name = event.feature.getProperty('name');
+                const lat = event.latLng.lat().toFixed(5);
+                const lng = event.latLng.lng().toFixed(5);
+                alert (`${name} clicked at :Lat: ${lat} Lng: ${lng}`);
+            });
+         
+
+                
+            
+
+
+        }
+
+
+    </script>
+    <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBido1XvtqvPYszA0lqAhWNEzbEpVunJwc&callback=draw_map"></script>
+
+
+</body>
+</html>

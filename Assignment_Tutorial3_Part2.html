@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+<title>Tutorial 3 Part 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<style>
+body,html {
+  height:100%;
+  font-family:"Inconsolata",sans-serif;
+  color: black;
+  background-color: pink;
+}
+
+.bgimg {
+  background-position:center;
+  background-size:cover;
+  background-image:url("wales.jpeg");
+  min-height:75%;
+}
+
+.menu {
+  display:none;
+}
+ 
+        #map_space{
+            height: 700px;
+            width: 900px;
+            background-color: lightblue;
+            border: 8px solid rgb(212, 0, 255);
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+</style>
+
+<body>
+
+<div class="w3-top">
+  <nav class="w3-flex w3-padding w3-pink">
+
+<a href="1. HomePage.html"
+class="w3-button w3-pink"
+style="flex:1">
+HOME
+</a>
+
+<a href="Assignment_Tutorial1.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 1
+</a>
+
+<a href="Assignment_Tutorial2.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 2
+</a>
+
+<a href="Assignment_Tutorial3.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 3
+</a>
+
+<a href="Assignment_CustomDataSet.html"
+class="w3-button w3-pink"
+style="flex:1">
+Custom Data Set
+</a>
+
+  </nav>
+</div>
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+  <div class="w3-display-bottomleft
+  w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">A Map of Wales featuring 2 Datasets - Monuments and Green Spaces in Wales</span>
+  </div>
+
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-green" style="font-size:90px">
+    Tutorial 3 Part 2
+    </span>
+  </div>
+
+</header>
+
+
+
+<div class="w3-sand w3-large">
+
+
+<section class="w3-container" id="about">
+
+<div class="w3-content" style="max-width:700px">
+
+<header><h1><center>Green Spaces and Monuments in Wales</center></h1></header>
+
+
+    
+   <center><select id="mapSelect" onchange="map()" style="width: 100%; text-align: center;">
+    <option value="all">Show All</option>
+    <option value="monuments">Monuments</option>
+    <option value="greenspaces">Green Spaces</option>
+</select></center>
+<br>
+
+    <div id = "map_space"></div>
+    <br>
+
+    <script>
+
+        let theMap;
+
+        function map() {
+            const selected = document.getElementById("mapSelect").value;
+
+            theMap.data.revertStyle();
+
+            if (selected === "all") {
+                return;
+            }
+
+            theMap.data.forEach(function (feature) {
+                if (feature.getProperty("dataset") !== selected) {
+                    theMap.data.overrideStyle(feature, {
+                        visible: false
+                    });
+                }
+            });
+        }
+
+        async function draw_map() {
+            
+        
+
+        var map_options = {
+            center: new google.maps.LatLng(52.4, -3.6),
+            zoom: 8,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        }
+
+        theMap= new google.maps.Map(document.getElementById("map_space"), map_options)
+        
+        const infoWindow = new google.maps.InfoWindow();
+
+
+        const response = await fetch ("./test2.json");
+        if (!response.ok) {
+            throw new Error("Failed to load GeoJSon");
+        }
+
+        const geojson = await response.json();
+
+        geojson.features.forEach(function(feature) {
+
+            feature.properties.dataset = "monuments";
+            feature.geometry.coordinates = [
+                Number(feature.properties.lng),
+                Number(feature.properties.lat)
+            ];
+        });
+
+        theMap.data.addGeoJson(geojson);
+
+
+        const response2 = await fetch ("./jsocontent2.json");
+        if (!response2.ok) {
+            throw new Error("Failed to load GeoJSon");
+        }
+
+        const geojson2 = await response2.json();
+
+        geojson2.features.forEach(function(feature) {
+        
+            feature.properties.dataset = "greenspaces";
+         
+        });
+
+        theMap.data.addGeoJson(geojson2);
+
+
+
+
+            //For Single Polygon or single style for the whole file
+        
+            /*strokeColor: "#FF0000",
+            strokeWeight: 3,
+            strokeOpacity: 1.0,
+            fillColor: "#00FF00",
+            fillOpacity: 0.4*/
+        
+
+            //For Multiple Polygon styling for the file
+
+            
+           /* const featureClass = feature.getProperty("attribute1");
+
+            if (featureClass === "A") {
+                return {
+                    strokeColor: "#0000FF",
+                    strokeWeight: 3,
+                    strokeOpacity: 1.0,
+                    fillColor: "#00FFFF",
+                    fillOpacity: 0.5
+                };
+            }
+        
+            else 
+                if (featureClass === "B") {
+                    return {
+                        strokeColor: "#FF0000",
+                        strokeWeight: 2,
+                        strokeOpacity: 1.0,
+                        fillColor: "#FFFF00",
+                        fillOpacity: 0.4
+                    };
+                }
+
+            return{
+                        strokeColor: "#000000",
+                        strokeWeight: 1,
+                        fillColor: "#CCCCCC",
+                        fillOpacity: 0.3
+            }
+        
+            */    
+    
+      
+        theMap.data.setStyle(function(feature){
+
+        if (feature.getProperty("dataset") === "monuments") {            const type = feature.getProperty("site_type");
+
+            let colour = "#808080";
+
+            if (type === "Abbey") {
+                colour = "#FF0000";
+            }
+            else if (type === "Castle") {
+                colour = "#0000FF";
+            }
+            else if (type === "House (domestic)") {
+                colour = "#00AA00";
+            }
+                            
+
+            return{
+                icon:{
+                    path: google.maps.SymbolPath.CIRCLE,
+                    scale: 9,
+                    fillColor: colour,
+                    fillOpacity: 1.0,
+                    strokeColor: "#FFFFFF",
+                    strokeWeight: 2
+                },
+                title: String(feature.getProperty("name") || "")
+            }
+                    
+          };
+          
+        if (feature.getProperty("dataset") === "greenspaces") {             const featureClass = feature.getProperty("function");
+
+            if (featureClass === "Playing Field") {
+                return{
+                    strokeColor: "#0000FF",
+                    strokeWeight: 3,
+                    strokeOpacity: 1.0,
+                    fillColor: "#00FFFF",
+                    fillOpacity: 0.5                                         
+                }
+            }
+             else 
+                if (featureClass === "Golf Course") {
+                    return {
+                        strokeColor: "#FF0000",
+                        strokeWeight: 2,
+                        strokeOpacity: 1.0,
+                        fillColor: "#FFFF00",
+                        fillOpacity: 0.4
+                    };
+                }
+
+            return{
+                        strokeColor: "#000000",
+                        strokeWeight: 1,
+                        fillColor: "#CCCCCC",
+                        fillOpacity: 0.3
+            }
+
+
+          }
+
+        });
+
+        theMap.data.addListener("click", function (event) {
+            const feature = event.feature;
+
+
+            const content = document.createElement("div");
+
+            const heading = document.createElement("h3");
+            heading.textContent = feature.getProperty("name") || feature.getProperty("function") || "Unnamed location" ;
+
+            const category = document.createElement("p");
+            category.textContent = "Class: " + ( feature.getProperty("broad_clas") || "Unknown");
+
+            content.append(heading, category);
+
+            infoWindow.setContent(content);
+
+            infoWindow.setPosition(event.latLng);
+
+            infoWindow.open({map: theMap});
+        });
+
+
+
+
+
+    
+    }
+        </script>
+    <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBido1XvtqvPYszA0lqAhWNEzbEpVunJwc&callback=draw_map"></script>
+
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+<title> Custom Data Representation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<style>
+body,html {
+  height:100%;
+  font-family:"Inconsolata",sans-serif;
+}
+
+.bgimg {
+  background-position:center;
+  background-size:cover;
+  background-image:url("bangkok.jpg");
+  min-height:75%;
+}
+
+.menu {
+  display:none;
+}
+
+#map_space{
+    height: 700px;
+    width: 900px;
+    background-color: lightblue;
+    border: 8px solid rgb(255, 0, 217);
+    margin: 0 auto;
+    justify-content: center;
+}
+</style>
+
+<body>
+
+
+    
+<div class="w3-top">
+  <nav class="w3-flex w3-padding w3-pink">
+<a href="1. HomePage.html"
+class="w3-button w3-pink"
+style="flex:1">
+HOME
+</a>
+
+<a href="Assignment_Tutorial1.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 1
+</a>
+
+<a href="Assignment_Tutorial2.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 2
+</a>
+
+<a href="Assignment_Tutorial3.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 3
+</a>
+
+<a href="Assignment_Tutorial3_Part2.html"
+class="w3-button w3-pink"
+style="flex:1">
+Tutorial 3 Part 2</a>
+
+  </nav>
+</div>
+
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+  <div class="w3-display-bottomleft
+  w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">A Google Map of Bangkok Thailand displaying 3 self discovered datasets of Bangkok Railways, Cultural Places and Settlements</span>
+  </div>
+
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">
+Custom Data Set    </span>
+  </div>
+
+</header>
+
+
+
+<div class="w3-sand w3-large">
+
+
+    
+
+<section class="w3-container" id="about">
+
+  <div class="w3-content" style="max-width:700px">
+<br>
+    <header><h1><center>Thailand - Bangkok Railways, Cultural Places and Settlements</center></h1></header>
+    <center><select id="mapSelect" style="width: 100%;">
+        <option value="all">Show All</option>
+        <option value="Railways">Railways</option>
+        <option value="CulturalPlaces">Cultural Places</option>
+        <option value="Settlements">Settlements</option>
+
+    </select></center>
+
+    <div id = "map_space"></div>
+
+
+    <script>
+
+        let theMap;
+        let selected = "";
+
+        function styleFeature(feature) {
+            const dataset = feature.getProperty("dataset");
+            
+            let colour = "#808080";
+            
+            if (dataset === "Railways"){
+                colour = "#FF0000"
+            }
+            if (dataset === "CulturalPlaces"){
+                colour = "#0000FF"
+            } 
+            if (dataset === "Settlements"){
+                colour = "yellow"
+            }
+            
+            const showRow = (selected === "all" || dataset === selected);
+
+            return{
+
+                strokeColor: colour,
+                strokeWeight: 3,
+
+                fillColor: colour,
+                fillOpacity: 0.3,
+
+                icon: {
+                    path: google.maps.SymbolPath.CIRCLE,
+                    scale: 7,
+                    fillColor: colour,
+                    fillOpacity: 1,
+                    strokeColor: "#FFFFFF",
+                    strokeWeight: 1
+                },
+                visible: showRow
+            };
+        }
+
+
+
+        async function draw_map() {
+            
+
+
+
+        var map_options = {
+            center: new google.maps.LatLng(13.753980, 100.501440),
+            zoom: 13,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        }
+
+        theMap= new google.maps.Map(document.getElementById("map_space"), map_options);
+        
+        const infoWindow = new google.maps.InfoWindow();
+      
+        theMap.data.setStyle(styleFeature);
+
+        const response = await fetch ("./railways.json");
+
+        if(!response.ok){
+            return;
+        }
+
+        const geojson = await response.json();
+        theMap.data.addGeoJson(geojson)
+
+        
+        theMap.data.forEach(function(feature) {
+
+            feature.setProperty("dataset", "Railways");
+
+        });
+  
+
+        const response2 = await fetch ("./CulturalPlacesTh.json");
+
+        if(!response2.ok){
+            return;
+        }
+
+        const geojson2 = await response2.json();
+        theMap.data.addGeoJson(geojson2)
+
+        
+        theMap.data.forEach(function(feature) {
+        
+            if (feature.getProperty("dataset") == null) {
+                feature.setProperty("dataset", "CulturalPlaces");
+            }         
+        });
+
+        const response3 = await fetch ("./Settlements.json");
+
+        if(!response3.ok){
+            return;
+        }
+
+        const geojson3 = await response3.json();
+        theMap.data.addGeoJson(geojson3)
+
+        
+        theMap.data.forEach(function(feature) {
+        
+            if (feature.getProperty("dataset") == null) {
+                feature.setProperty("dataset", "Settlements");
+            }         
+        });
+
+
+    
+
+        const SelOpt = document.getElementById("mapSelect");
+        google.maps.event.addDomListener(SelOpt, "change", function(){
+            selected = SelOpt.value;
+            theMap.data.setStyle(styleFeature);
+        });
+
+      
+        theMap.data.addListener("click", function (event) {
+            const feature = event.feature;
+
+            const name = feature.getProperty("name_en") || feature.getProperty("name") || feature.getProperty("name_th") || feature.getProperty("id");
+            const clas = feature.getProperty("adm1_name") || feature.getProperty("amenity") || feature.getProperty("historic") || feature.getProperty("tourism") || feature.getProperty("landuse");
+        
+
+            infoWindow.setContent(
+                "<h3>" + (name || "Unnamed") + "</h3>" + 
+                "<p>Class: " + (clas || "Unknown Class") + "</p>"
+            );
+
+            infoWindow.setPosition(event.latLng);
+
+            infoWindow.open({map: theMap});
+        });
+     
+
+
+
+    
+    }
+        </script>
+    <script src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBido1XvtqvPYszA0lqAhWNEzbEpVunJwc&callback=draw_map"></script>
+
+</body>
+</html>

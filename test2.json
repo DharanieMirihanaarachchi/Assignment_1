@@ -1,0 +1,2941 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [232898.85381982, 370720.98672973]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Barclodiad-y-Gawres Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered round barrow",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN032",
+        "lat": 53.207235,
+        "lng": -4.503555,
+        "x": 232899,
+        "y": 370721,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Barclodiad y Gawres "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [319606.55518995, 377463.69038936]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Basingwerk Abbey",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL001",
+        "lat": 53.288035,
+        "lng": -3.207421,
+        "x": 319607,
+        "y": 377464,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Abaty Dinas Basing"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [260712.67602726, 376235.67608378]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Beaumaris Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "International",
+        "sm_number": "AN001",
+        "lat": 53.264792,
+        "lng": -4.089829,
+        "x": 260713,
+        "y": 376236,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Biwmares  "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [324952.15701155, 209262.81541723]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Blaenavon Ironworks",
+        "broad_clas": "Industrial",
+        "site_type": "Industrial monument",
+        "site_signi": "International",
+        "sm_number": "MM200",
+        "lat": 51.776985,
+        "lng": -3.089182,
+        "x": 324952,
+        "y": 209263,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Gwaith Haearn Blaenafon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246232.91262134, 368157.00093444]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Bodowyr Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered tomb",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN007",
+        "lat": 53.188232,
+        "lng": -4.302846,
+        "x": 246233,
+        "y": 368157,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Bodowyr "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [314928.35987625, 234725.32981238]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Bronllys Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "BR008",
+        "lat": 52.004428,
+        "lng": -3.240726,
+        "x": 314928,
+        "y": 234725,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Bronllys"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.7",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [250759.18074118, 370181.87300474]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Bryn-Celli-Ddu Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Burial Chamber",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN002",
+        "lat": 53.207709,
+        "lng": -4.236107,
+        "x": 250759,
+        "y": 370182,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Bryn Celli Ddu "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.8",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [291603.92292598, 286797.95487142]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Bryntail Lead Mine",
+        "broad_clas": "Industrial",
+        "site_type": "Lead mine",
+        "site_signi": "Nationally significant",
+        "sm_number": "MG159",
+        "lat": 52.468337,
+        "lng": -3.597101,
+        "x": 291604,
+        "y": 286798,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Gwaith Plwm Bryn-tail"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [353785.44226428, 192719.71380812]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Bulwarks Camp",
+        "broad_clas": "Defence",
+        "site_type": "Hillfort",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM093",
+        "lat": 51.631381,
+        "lng": -2.669102,
+        "x": 353785,
+        "y": 192720,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Clostir Cynhanesyddol Bwlwarcau "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [247291.71129899, 367416.03374942]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caer Leb",
+        "broad_clas": "Defence",
+        "site_type": "Enclosure",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN014",
+        "lat": 53.181882,
+        "lng": -4.286659,
+        "x": 247292,
+        "y": 367416,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Fferm Frythonig-Rufeinig Caer Lêb"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.11",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [221904.26181337, 382915.75940122]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caer y Twr",
+        "broad_clas": "Defence",
+        "site_type": "Hillfort",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN019",
+        "lat": 53.31316,
+        "lng": -4.67482,
+        "x": 221904,
+        "y": 382916,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Caer y Tŵr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.12",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [292345.32626407, 250238.26679939]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caerau Roman Site",
+        "broad_clas": "Defence",
+        "site_type": "Fort",
+        "site_signi": "Nationally significant",
+        "sm_number": "BR148",
+        "lat": 52.139925,
+        "lng": -3.574491,
+        "x": 292345,
+        "y": 250238,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.13",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [330696.62822695, 357210.44317158]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caergwrle Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL020",
+        "lat": 53.107579,
+        "lng": -3.036691,
+        "x": 330697,
+        "y": 357210,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Caergwrle"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.15",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [247787.4855193, 362660.73776905]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Caernarfon",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "International",
+        "sm_number": "CN079",
+        "lat": 53.139313,
+        "lng": -4.276984,
+        "x": 247787,
+        "y": 362661,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Caernarfon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.16",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [247846.55489395, 362842.45039589]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caernarfon Town Wall",
+        "broad_clas": "Defence",
+        "site_type": "Town Wall",
+        "site_signi": "International",
+        "sm_number": "CN034",
+        "lat": 53.140962,
+        "lng": -4.276188,
+        "x": 247847,
+        "y": 362842,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Muriau Tref Caernarfon "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.17",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [315483.96796952, 187097.72074764]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caerphilly Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM002",
+        "lat": 51.576386,
+        "lng": -3.221017,
+        "x": 315484,
+        "y": 187098,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Caerffili  "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.18",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [346871.25192298, 190534.90863216]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caerwent Roman City",
+        "broad_clas": "Domestic",
+        "site_type": "Town",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM001",
+        "lat": 51.611126,
+        "lng": -2.768655,
+        "x": 346871,
+        "y": 190535,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Tref Rufeinig Caer-went  "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.19",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [281795.29915238, 354316.6233848]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Capel Garmon Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered long cairn",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE001",
+        "lat": 53.072977,
+        "lng": -3.765805,
+        "x": 281795,
+        "y": 354317,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Capel Garmon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.20",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [249906.43349815, 386310.13569966]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Capel Lligwy",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chapel",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN056",
+        "lat": 53.35233,
+        "lng": -4.256487,
+        "x": 249906,
+        "y": 386310,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Capel Llugwy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.21",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [204679.27505814, 203707.13959378]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Carew Cross",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Cross",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE009",
+        "lat": 51.698044,
+        "lng": -4.827783,
+        "x": 204679,
+        "y": 203707,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Croes Caeriw"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [266813.83878059, 219099.62847464]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Carreg Cennen",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM001",
+        "lat": 51.854556,
+        "lng": -3.935253,
+        "x": 266814,
+        "y": 219100,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Carreg Cennen"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.23",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [206034.4776481, 239350.20324162]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Carreg Coetan Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered tomb",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE056",
+        "lat": 52.018594,
+        "lng": -4.828207,
+        "x": 206034,
+        "y": 239350,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Carreg Coetan Arthur "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.24",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209801.06012594, 201057.09559737]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Carswell Old House",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE373",
+        "lat": 51.676003,
+        "lng": -4.752317,
+        "x": 209801,
+        "y": 201057,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Tŷ Canoloesol Carswell"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.25",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [246523.29917258, 367050.08657088]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Bryn-Gwyn",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Henge",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN015",
+        "lat": 53.178374,
+        "lng": -4.297972,
+        "x": 246523,
+        "y": 367050,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Clostir Cynhanesyddol Castell Bryngwyn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.26",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [313083.06557578, 182653.63033936]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Coch",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM206",
+        "lat": 51.536071,
+        "lng": -3.254554,
+        "x": 313083,
+        "y": 182654,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Coch"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.27",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [266779.24964383, 308547.95885866]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell y Bere",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "ME023",
+        "lat": 52.658255,
+        "lng": -3.971071,
+        "x": 266779,
+        "y": 308548,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell y Bere"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.28",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [353352.35600986, 194108.4432895]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Chepstow Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM003",
+        "lat": 51.643831,
+        "lng": -2.675544,
+        "x": 353352,
+        "y": 194108,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Cas-gwent"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.29",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [353306.19515988, 193808.23207415]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Chepstow Town Wall and Gate",
+        "broad_clas": "Defence",
+        "site_type": "Town defences",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM002",
+        "lat": 51.641128,
+        "lng": -2.676171,
+        "x": 353306,
+        "y": 193808,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Chepstow Town Wall and Gate"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.30",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [307025.13360808, 350714.08138756]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Churchyard Cross, Derwen",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Cross",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE162",
+        "lat": 53.045595,
+        "lng": -3.388312,
+        "x": 307025,
+        "y": 350714,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Croes Derwen"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.31",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [219494.79111559, 243115.19223458]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Cilgerran Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE002",
+        "lat": 52.056951,
+        "lng": -4.634259,
+        "x": 219495,
+        "y": 243115,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Cilgerran"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.32",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [292323.99695758, 181499.87893762]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Coity Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM004",
+        "lat": 51.522119,
+        "lng": -3.553399,
+        "x": 292324,
+        "y": 181500,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Coety"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.33",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [278374.39356474, 377458.63173546]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Conwy",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "International",
+        "sm_number": "CN004",
+        "lat": 53.280125,
+        "lng": -3.825648,
+        "x": 278374,
+        "y": 377459,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Conwy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.34",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [278028.02283768, 377586.14787346]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Conwy Town Wall",
+        "broad_clas": "Defence",
+        "site_type": "Town Wall",
+        "site_signi": "International",
+        "sm_number": "CN014",
+        "lat": 53.281191,
+        "lng": -3.830889,
+        "x": 278028,
+        "y": 377586,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Muriau Tref Conwy "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.35",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [249991.34707575, 337716.94701746]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Criccieth",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN015",
+        "lat": 52.915885,
+        "lng": -4.23246,
+        "x": 249991,
+        "y": 337717,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Cricieth"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.36",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [263048.03791169, 380726.47335227]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Cross in Penmon Priory",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Cross",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN063",
+        "lat": 53.305741,
+        "lng": -4.056776,
+        "x": 263048,
+        "y": 380726,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Priordy a Chroes Penmon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.37",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [272135.49646281, 319522.93224021]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Cymer Abbey",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "ME001",
+        "lat": 52.758152,
+        "lng": -3.896199,
+        "x": 272135,
+        "y": 319523,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Abaty Cymer "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.38",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [305155.83979687, 365778.90938071]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Denbigh Castle and Medieval Town",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE156",
+        "lat": 53.180642,
+        "lng": -3.420643,
+        "x": 305156,
+        "y": 365779,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Dinbych"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.39",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [305943.89577487, 366563.65850875]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Denbigh Friary",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Friary",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE023",
+        "lat": 53.187834,
+        "lng": -3.409086,
+        "x": 305944,
+        "y": 366564,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Eglwys y Brodyr, Dinbych"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.40",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [305227.25371904, 365789.84421625]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Denbigh Town Wall",
+        "broad_clas": "Defence",
+        "site_type": "Town defences",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE002",
+        "lat": 53.180753,
+        "lng": -3.419578,
+        "x": 305227,
+        "y": 365790,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Muriau Tref Dinbych"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.41",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [239558.40713104, 372476.12508711]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Din Dryfol Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered long cairn",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN008",
+        "lat": 53.22505,
+        "lng": -4.404819,
+        "x": 239558,
+        "y": 372476,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Din Dryfol "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.42",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [249711.82311135, 386136.81700356]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Din Lligwy Ancient Village",
+        "broad_clas": "Domestic",
+        "site_type": "Enclosed hut circle",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN023",
+        "lat": 53.350718,
+        "lng": -4.259326,
+        "x": 249712,
+        "y": 386137,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Pentref Brythonig-Rufeinig Din Llugwy"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.43",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [258591.22783313, 359804.25301679]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Dolbadarn Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN066",
+        "lat": 53.116631,
+        "lng": -4.114336,
+        "x": 258591,
+        "y": 359804,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Dolbadarn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.44",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [315166.56005987, 295011.95781848]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Dolforwyn Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MG114",
+        "lat": 52.546338,
+        "lng": -3.252437,
+        "x": 315167,
+        "y": 295012,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Dolforwyn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.45",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [272178.537021, 352351.04419645]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Dolwyddelan Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN040",
+        "lat": 53.053102,
+        "lng": -3.908483,
+        "x": 272179,
+        "y": 352351,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Dolwyddelan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.46",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [255437.64039434, 220364.41434035]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Dryslwyn Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM030",
+        "lat": 51.863088,
+        "lng": -4.100847,
+        "x": 255438,
+        "y": 220364,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Dryslwyn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.47",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [258898.09169606, 322834.55986943]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Dyffryn Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered long cairn",
+        "site_signi": "Nationally significant",
+        "sm_number": "ME003",
+        "lat": 52.784606,
+        "lng": -4.093648,
+        "x": 258898,
+        "y": 322835,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Dyffryn Ardudwy "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.48",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [268500.60070203, 295131.63566416]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Dyfi Blast Furnace and Charcoal Store",
+        "broad_clas": "Industrial",
+        "site_type": "Ironworks",
+        "site_signi": "Nationally significant",
+        "sm_number": "CD128",
+        "lat": 52.538135,
+        "lng": -3.940302,
+        "x": 268501,
+        "y": 295132,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Ffwrnais Dyfi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.49",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [320273.05279854, 344522.85331901]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Eliseg's Pillar & Tumulus",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Round barrow",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE015",
+        "lat": 52.992095,
+        "lng": -3.189217,
+        "x": 320273,
+        "y": 344523,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Eliseg's Pillar & Tumulus"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.50",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [291182.88824566, 177779.68500128]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Ewenny Priory",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Priory",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM190",
+        "lat": 51.488462,
+        "lng": -3.568692,
+        "x": 291183,
+        "y": 177780,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Priordy Ewenni"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.51",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [328806.45049746, 367517.07751308]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Ewloe",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL002",
+        "lat": 53.199959,
+        "lng": -3.067215,
+        "x": 328806,
+        "y": 367517,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Ewloe"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.52",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [278902.71028268, 353277.10706964]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Fedw-Deg Old House",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN099",
+        "lat": 53.062989,
+        "lng": -3.808566,
+        "x": 278903,
+        "y": 353277,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.53",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [242729.45881637, 341253.3041071]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Ffynnon Gybi",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Holy Well",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN037",
+        "lat": 52.945571,
+        "lng": -4.342082,
+        "x": 242729,
+        "y": 341253,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Ffynnon Gybi "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.54",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [324693.51707247, 373284.02633902]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Flint Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL003",
+        "lat": 53.25122,
+        "lng": -3.130137,
+        "x": 324694,
+        "y": 373284,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell y Fflint"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.55",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [340555.9774902, 224451.67607565]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Grosmont Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM007",
+        "lat": 51.915412,
+        "lng": -2.865659,
+        "x": 340556,
+        "y": 224452,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell y Grysmwnt"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.56",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [279483.02839437, 360932.71138961]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Gwydir Uchaf Chapel",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chapel",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN113",
+        "lat": 53.131903,
+        "lng": -3.802785,
+        "x": 279483,
+        "y": 360933,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Capel Gwydir Uchaf"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.57",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [256225.35971794, 378157.85106862]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Hafoty Old Farm House",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN097",
+        "lat": 53.28086,
+        "lng": -4.157927,
+        "x": 256225,
+        "y": 378158,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Tŷ Canoloesol Hafoty"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.58",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [258098.99398995, 331275.29354582]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Harlech",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "International",
+        "sm_number": "ME044",
+        "lat": 52.860222,
+        "lng": -4.109158,
+        "x": 258099,
+        "y": 331275,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Harlech"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.59",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [195699.41015208, 215140.97121612]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Haverfordwest Priory",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Priory",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE017",
+        "lat": 51.797514,
+        "lng": -4.96426,
+        "x": 195699,
+        "y": 215141,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Priordy Hwlffordd "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.60",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [339576.48998416, 215128.46545721]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Hen Gwrt Moated Site",
+        "broad_clas": "Domestic",
+        "site_type": "Moated Site",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM094",
+        "lat": 51.83149,
+        "lng": -2.878263,
+        "x": 339576,
+        "y": 215128,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Safle Ffosedig Ganoloesol Hen Gwrt "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.61",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [298066.50266257, 203143.14646878]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Heritage Cottage",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "Listed Building",
+        "lat": 51.717725,
+        "lng": -3.476959,
+        "x": 298067,
+        "y": 203143,
+        "paidstatus": "Temporarily closed",
+        "name_cy": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.62",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [221265.14524791, 382062.02076469]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Holyhead Mountain Hut Circles",
+        "broad_clas": "Domestic",
+        "site_type": "Unenclosed hut circle settlement",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN016",
+        "lat": 53.305279,
+        "lng": -4.683921,
+        "x": 221265,
+        "y": 382062,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Pentref Cynhanesyddol Mynydd Twr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.63",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240916.16453309, 207095.40363947]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Kidwelly Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM002",
+        "lat": 51.739929,
+        "lng": -4.305473,
+        "x": 240916,
+        "y": 207095,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Cydweli"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.64",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [240818.87212072, 206927.39250614]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Kidwelly Town Gate & Defences",
+        "broad_clas": "Defence",
+        "site_type": "Gatehouse",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM183",
+        "lat": 51.738392,
+        "lng": -4.306804,
+        "x": 240819,
+        "y": 206927,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Kidwelly Town Gate & Defences"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.65",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [201874.99006823, 200898.21724118]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Lamphey Palace",
+        "broad_clas": "Domestic",
+        "site_type": "Palace",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE003",
+        "lat": 51.671837,
+        "lng": -4.866714,
+        "x": 201875,
+        "y": 200898,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Llys yr Esgob, Llandyfái"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.66",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [230215.78743947, 210755.71355856]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Laugharne Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM003",
+        "lat": 51.769669,
+        "lng": -4.46209,
+        "x": 230216,
+        "y": 210756,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Talacharn "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.67",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [305266.43774731, 365952.09383015]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Leicester's Church",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Church",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE044",
+        "lat": 53.182218,
+        "lng": -3.41904,
+        "x": 305266,
+        "y": 365952,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.68",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [306354.40741311, 342447.59869356]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Llangar Old Parish Church & Churchyard",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Church",
+        "site_signi": "Nationally significant",
+        "sm_number": "ME093",
+        "lat": 52.971191,
+        "lng": -3.395915,
+        "x": 306354,
+        "y": 342448,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Hen Eglwys Llangar"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.69",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [346168.83632248, 192573.12465025]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Llanmelin Wood Camps",
+        "broad_clas": "Defence",
+        "site_type": "Hillfort",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM024",
+        "lat": 51.629384,
+        "lng": -2.779112,
+        "x": 346169,
+        "y": 192573,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Bryngaer Coed Llanmelin "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.70",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [235113.44143074, 210130.97322059]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Llansteffan Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM004",
+        "lat": 51.765521,
+        "lng": -4.390879,
+        "x": 235113,
+        "y": 210131,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Llansteffan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.71",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [328859.21076864, 227889.72228037]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Llanthony Priory",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Priory",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM004",
+        "lat": 51.944944,
+        "lng": -3.036403,
+        "x": 328859,
+        "y": 227890,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Priordy Llanddewi Nant Hodni"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.72",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [207293.68712959, 217450.74761088]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Llawhaden Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE024",
+        "lat": 51.822372,
+        "lng": -4.797621,
+        "x": 207294,
+        "y": 217451,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Llanhuadain"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.73",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [250139.28971909, 386032.6762247]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Lligwy Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered tomb",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN009",
+        "lat": 53.349904,
+        "lng": -4.25286,
+        "x": 250139,
+        "y": 386033,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Llugwy "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.74",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [256435.03211143, 197979.53332958]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Loughor Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM046",
+        "lat": 51.662212,
+        "lng": -4.077119,
+        "x": 256435,
+        "y": 197980,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Casllwchwr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.75",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [312887.7330607, 378763.74767991]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Maen Achwyfan",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Cross",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL005",
+        "lat": 53.298655,
+        "lng": -3.308537,
+        "x": 312888,
+        "y": 378764,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Maen Achwyfan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.76",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [280140.34498993, 186349.95621153]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Margam Inscribed & Sculptured Stones",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Cross",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM011",
+        "lat": 51.563253,
+        "lng": -3.730582,
+        "x": 280140,
+        "y": 186350,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Margam Inscribed & Sculptured Stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.77",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [350678.28696276, 212894.64384786]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Monmouth Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM159",
+        "lat": 51.812501,
+        "lng": -2.716851,
+        "x": 350678,
+        "y": 212895,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Trefynwy "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.78",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [322128.98666102, 296775.10745611]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Montgomery Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MG022",
+        "lat": 52.563227,
+        "lng": -3.150201,
+        "x": 322129,
+        "y": 296775,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Trefaldwyn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.79",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [273790.79286158, 197366.34892953]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Neath Abbey & Gatehouse",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM006",
+        "lat": 51.66087,
+        "lng": -3.826105,
+        "x": 273791,
+        "y": 197366,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Abaty Nedd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.80",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [290240.28893175, 180078.2940563]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Newcastle Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM063",
+        "lat": 51.50894,
+        "lng": -3.582979,
+        "x": 290240,
+        "y": 180078,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Y Castell Newydd "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.81",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [331161.51205268, 188460.68228683]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Newport Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM009",
+        "lat": 51.590775,
+        "lng": -2.995086,
+        "x": 331162,
+        "y": 188461,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Casnewydd "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.82",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [288187.50586473, 176959.90158919]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Ogmore Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM037",
+        "lat": 51.480509,
+        "lng": -3.611557,
+        "x": 288188,
+        "y": 176960,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Ogwr "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.83",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [288144.11006397, 176989.3392079]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Ogmore Stepping Stones",
+        "broad_clas": "Transport",
+        "site_type": "Stepping Stones",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM184",
+        "lat": 51.480765,
+        "lng": -3.612191,
+        "x": 288144,
+        "y": 176989,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Ogmore Stepping Stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.84",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [300803.91796017, 172104.92881687]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Old Beaupre Castle",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM001",
+        "lat": 51.439224,
+        "lng": -3.428572,
+        "x": 300804,
+        "y": 172105,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Hen Gastell y Bewpyr "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.85",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [261204.40132443, 221737.51234633]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Old Dynefwr Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM029",
+        "lat": 51.876891,
+        "lng": -4.017708,
+        "x": 261204,
+        "y": 221738,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Casdell Dinefwr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.86",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [249777.99461832, 186297.39164603]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Oxwich Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM043",
+        "lat": 51.555508,
+        "lng": -4.168288,
+        "x": 249778,
+        "y": 186297,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Oxwich"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.87",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [253732.70785652, 189834.04984864]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Parc le Breos Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered long cairn",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM122",
+        "lat": 51.588326,
+        "lng": -4.112758,
+        "x": 253733,
+        "y": 189834,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Parc le Breos"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.88",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241920.41137664, 337677.46830408]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Penarth Fawr Medieval Hall",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN086",
+        "lat": 52.913216,
+        "lng": -4.352369,
+        "x": 241920,
+        "y": 337677,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Pennarth Fawr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.89",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [263119.99525024, 380710.59803944]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Penmon Dovecot",
+        "broad_clas": "Agriculture and Subsistence",
+        "site_type": "dovecote",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN061",
+        "lat": 53.305617,
+        "lng": -4.05569,
+        "x": 263120,
+        "y": 380711,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Colomendy Penmon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.90",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [263044.30694054, 380703.42573385]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Penmon Priory",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Priory",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN027",
+        "lat": 53.305533,
+        "lng": -4.056822,
+        "x": 263044,
+        "y": 380703,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Priordy Penmon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.91",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [222698.07138887, 380946.54919737]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Penrhos Feilw Standing Stones",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Standing stone",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN017",
+        "lat": 53.295745,
+        "lng": -4.661818,
+        "x": 222698,
+        "y": 380947,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Meini Hirion Penrhosfeilw"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.92",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [209941.55786803, 237020.89043503]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Pentre-Ifan Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered tomb",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE008",
+        "lat": 51.999028,
+        "lng": -4.770046,
+        "x": 209942,
+        "y": 237021,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Pentre Ifan "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.93",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [322477.2222471, 239867.56276698]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Pen-y-Wyrlod Long Barrow",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered long barrow",
+        "site_signi": "Nationally significant",
+        "sm_number": "BR012",
+        "lat": 52.051758,
+        "lng": -3.131945,
+        "x": 322477,
+        "y": 239868,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Pen-y-Wyrlod Long Barrow"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.94",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [278083.2868355, 377589.85251685]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Plas Mawr",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN083",
+        "lat": 53.281237,
+        "lng": -3.830062,
+        "x": 278083,
+        "y": 377590,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Plas Mawr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.95",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [285988.42235274, 313889.92865705]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Pont Minllyn",
+        "broad_clas": "Transport",
+        "site_type": "Bridge",
+        "site_signi": "Nationally significant",
+        "sm_number": "ME094",
+        "lat": 52.710639,
+        "lng": -3.689065,
+        "x": 285988,
+        "y": 313890,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Pont Minllyn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.96",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [234768.31433864, 380893.2192544]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Presaddfed Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered tomb",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN010",
+        "lat": 53.299169,
+        "lng": -4.480874,
+        "x": 234768,
+        "y": 380893,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Presaddfed "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.97",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [341388.46120312, 208266.025175]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Raglan Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM005",
+        "lat": 51.769989,
+        "lng": -2.850809,
+        "x": 341388,
+        "y": 208266,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Rhaglan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.98",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [302436.82645151, 377907.97517982]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Rhuddlan",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL004",
+        "lat": 53.289142,
+        "lng": -3.465032,
+        "x": 302437,
+        "y": 377908,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Rhuddlan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.99",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [224726.70311881, 382619.94279458]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caer Gybi",
+        "broad_clas": "Defence",
+        "site_type": "Fort",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN031",
+        "lat": 53.311446,
+        "lng": -4.632339,
+        "x": 224727,
+        "y": 382620,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Roman Wall Surrounding St Cybi's Churchyard"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [306489.352036, 343895.68387081]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Rug Chapel",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chapel",
+        "site_signi": "Nationally significant",
+        "sm_number": "ME089",
+        "lat": 52.984228,
+        "lng": -3.394325,
+        "x": 306489,
+        "y": 343896,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Capel y Rug"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [349594.13146402, 191540.08975713]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Runston Medieval Village Site & Runston Chapel",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Deserted Medieval Village",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM095",
+        "lat": 51.620414,
+        "lng": -2.729481,
+        "x": 349594,
+        "y": 191540,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Runston Medieval Village Site & Runston Chapel"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [248528.4276684, 362418.33712199]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Segontium Roman Site",
+        "broad_clas": "Defence",
+        "site_type": "Fort",
+        "site_signi": "Nationally significant",
+        "sm_number": "CN006",
+        "lat": 53.137347,
+        "lng": -4.265802,
+        "x": 248528,
+        "y": 362418,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Caer Rufeinig Segontium "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [345678.95637153, 220308.64641629]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Skenfrith Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM088",
+        "lat": 51.87869,
+        "lng": -2.79053,
+        "x": 345679,
+        "y": 220309,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Ynysgynwraidd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175082.58727296, 225462.16879309]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Davids Cathedral Close: Close Wall and Sites of Former Gateways",
+        "broad_clas": "Monument",
+        "site_type": "Wall",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE018",
+        "lat": 51.882251,
+        "lng": -5.269464,
+        "x": 175083,
+        "y": 225462,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "St Davids Cathedral Close: Close Wall and Sites of Former Gateways"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174993.26363001, 225453.59604286]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St David's Cathedral Close: The Bishops Palace and Garden",
+        "broad_clas": "Domestic",
+        "site_type": "Palace",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE006",
+        "lat": 51.882138,
+        "lng": -5.270754,
+        "x": 174993,
+        "y": 225454,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Llys yr Esgob, Tyddewi "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [216413.50756728, 245845.81836397]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Dogmaels Abbey",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE073",
+        "lat": 52.080462,
+        "lng": -4.680619,
+        "x": 216414,
+        "y": 245846,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Abaty Llandudoch"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [305210.46962541, 365900.79072264]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Hilary's Chapel Tower",
+        "broad_clas": "Monument",
+        "site_type": "Tower",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE005",
+        "lat": 53.181747,
+        "lng": -3.419862,
+        "x": 305210,
+        "y": 365901,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Capel Hilari"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [310084.7380727, 172304.5757029]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Lythan's Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered long barrow",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM008",
+        "lat": 51.44257,
+        "lng": -3.295133,
+        "x": 310085,
+        "y": 172305,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Llwyneliddon "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [175077.09437894, 224342.24528195]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Non's Chapel",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chapel",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE013",
+        "lat": 51.872196,
+        "lng": -5.268814,
+        "x": 175077,
+        "y": 224342,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Capel Non"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [298893.40856064, 174180.98946626]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Quintin's Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM094",
+        "lat": 51.457547,
+        "lng": -3.456644,
+        "x": 298893,
+        "y": 174181,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [263059.83347142, 380795.71019025]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Seiriol's Well, Penmon",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Holy Well",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN062",
+        "lat": 53.306366,
+        "lng": -4.056629,
+        "x": 263060,
+        "y": 380796,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Ffynnon Seiriol, Penmon"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [318509.06411041, 376266.54489202]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "St Winefride's Chapel",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chapel",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL101",
+        "lat": 53.277109,
+        "lng": -3.223573,
+        "x": 318509,
+        "y": 376267,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Capel a Ffynnon Gwenffrewi"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [274682.82962859, 265701.65074858]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Strata Florida Abbey",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "CD001",
+        "lat": 52.275151,
+        "lng": -3.838174,
+        "x": 274683,
+        "y": 265702,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Abaty Ystrad Fflur "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [265719.07705888, 193084.27492991]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Swansea Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM012",
+        "lat": 51.620519,
+        "lng": -3.941091,
+        "x": 265719,
+        "y": 193084,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Abertawe "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [263263.77051732, 232763.42442653]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Talley Abbey",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "CM013",
+        "lat": 51.976473,
+        "lng": -3.992193,
+        "x": 263264,
+        "y": 232763,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Abaty Talyllychau "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [300330.54657156, 229682.10866631]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "The Gaer, Brecon",
+        "broad_clas": "Defence",
+        "site_type": "Fort",
+        "site_signi": "Nationally significant",
+        "sm_number": "BR001",
+        "lat": 51.956669,
+        "lng": -3.451851,
+        "x": 300331,
+        "y": 229682,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Caer Rufeinig y Gaer "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [309268.62083653, 173292.11809609]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Tinkinswood Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered long barrow",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM009",
+        "lat": 51.451317,
+        "lng": -3.307126,
+        "x": 309269,
+        "y": 173292,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Tinkinswood "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [353291.21795302, 200019.71752453]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Tintern Abbey",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM102",
+        "lat": 51.696973,
+        "lng": -2.677218,
+        "x": 353291,
+        "y": 200020,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Abaty Tyndyrn "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225859.73930537, 380550.86064416]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Trefignath Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered round barrow",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN011",
+        "lat": 53.293241,
+        "lng": -4.614216,
+        "x": 225860,
+        "y": 380551,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Trefignath "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [234064.40942308, 383182.56534864]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Tregwehelydd Standing Stone",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Standing stone",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN018",
+        "lat": 53.319508,
+        "lng": -4.492624,
+        "x": 234064,
+        "y": 383183,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Maen Hir Tregwehelydd"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [318494.14670528, 221260.75817495]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Tretower Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "BR014",
+        "lat": 51.883932,
+        "lng": -3.185596,
+        "x": 318494,
+        "y": 221261,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Tretŵr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [318564.25563927, 221190.42178806]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Tretower Court",
+        "broad_clas": "Domestic",
+        "site_type": "House (domestic)",
+        "site_signi": "Nationally significant",
+        "sm_number": "BR117",
+        "lat": 51.88331,
+        "lng": -3.184561,
+        "x": 318564,
+        "y": 221190,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Llys Tretŵr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [302638.98284857, 377678.37131231]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Twthill, Castle Motte",
+        "broad_clas": "Defence",
+        "site_type": "Motte & Bailey",
+        "site_signi": "Nationally significant",
+        "sm_number": "FL015",
+        "lat": 53.287116,
+        "lng": -3.46193,
+        "x": 302639,
+        "y": 377678,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Mwnt y Castell, Twtil"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [225396.32566854, 380954.62974855]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Ty-Mawr Standing Stone",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Standing stone",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN012",
+        "lat": 53.296714,
+        "lng": -4.621383,
+        "x": 225396,
+        "y": 380955,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Maen Hir Tŷ Mawr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [234423.0520894, 373863.18773902]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Ty-Newydd Burial Chamber",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Chambered tomb",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN013",
+        "lat": 53.23593,
+        "lng": -4.482388,
+        "x": 234423,
+        "y": 373863,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Beddrod Siambr Tŷ Newydd "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [320469.72673962, 344142.51063714]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Valle Crucis Abbey",
+        "broad_clas": "Religious, Ritual and Funerary",
+        "site_type": "Abbey",
+        "site_signi": "Nationally significant",
+        "sm_number": "DE003",
+        "lat": 52.988706,
+        "lng": -3.186194,
+        "x": 320470,
+        "y": 344143,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Abaty Glyn y Groes "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [247821.40179497, 192728.61036361]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Castell Weobley",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "GM010",
+        "lat": 51.612767,
+        "lng": -4.199279,
+        "x": 247821,
+        "y": 192729,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Castell Weobley"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [337943.85695952, 216772.65655165]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "White Castle",
+        "broad_clas": "Defence",
+        "site_type": "Castle",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM006",
+        "lat": 51.846092,
+        "lng": -2.902248,
+        "x": 337944,
+        "y": 216773,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Y Castell Gwyn"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [202246.66905333, 218138.98967307]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Wiston Castle",
+        "broad_clas": "Defence",
+        "site_type": "Motte & Bailey",
+        "site_signi": "Nationally significant",
+        "sm_number": "PE077",
+        "lat": 51.826789,
+        "lng": -4.87115,
+        "x": 202247,
+        "y": 218139,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Castell Wiston"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [250653.44744029, 357324.00823658]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Cae'r Gors",
+        "broad_clas": "Residential",
+        "site_type": "Domestic",
+        "site_signi": null,
+        "sm_number": "21811 (Listed Building)",
+        "lat": null,
+        "lng": null,
+        "x": 250653,
+        "y": 357324,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Cae'r Gors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [241903.47239631, 365386.7250923]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Llys Rhosyr",
+        "broad_clas": "Domestic",
+        "site_type": "Manor",
+        "site_signi": "Nationally significant",
+        "sm_number": "AN129",
+        "lat": null,
+        "lng": null,
+        "x": 241905,
+        "y": 365378,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Llys Rhosyr"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [333833.37221184, 190349.17590915]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caerleon Roman Amphitheatre",
+        "broad_clas": "Recreational",
+        "site_type": "Amphitheatre",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM232",
+        "lat": null,
+        "lng": null,
+        "x": 333824,
+        "y": 190351,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Amffitheatr Rufeinig Caerllion  "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [333678.81393698, 190646.30526594]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caerleon Roman Barracks",
+        "broad_clas": "Defence",
+        "site_type": "egionary Fortress",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM230",
+        "lat": null,
+        "lng": null,
+        "x": 333832,
+        "y": 190512,
+        "paidstatus": "Am ddim/Free",
+        "name_cy": "Barics Rhufeinig Caerllion"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cadw_guardianshipmonuments.14",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [334032.30084565, 190580.95441904]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "name": "Caerleon Roman Baths",
+        "broad_clas": "Defence",
+        "site_type": "Legionary fortress",
+        "site_signi": "Nationally significant",
+        "sm_number": "MM230",
+        "lat": 51.609534,
+        "lng": -2.956927,
+        "x": 333832,
+        "y": 190512,
+        "paidstatus": "Talu/Paid",
+        "name_cy": "Baddondy Rhufeinig Caerllion"
+      }
+    }
+  ],
+  "totalFeatures": 133,
+  "numberMatched": 133,
+  "numberReturned": 133,
+  "timeStamp": "2026-10-25T19:22:23.696Z",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::27700"
+    }
+  }
+}
